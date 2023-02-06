@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@font-face {
+    font-family: plakativ;
+    src: url(../fonts/plakativ.ttf);
+}
+@font-face{
+    font-family: BebasNeue;
+    src:url(../fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: GreenHostel;
+    src: url(../fonts/GreenHostel-vma2y.ttf);
+}
+*{
+    /* list-style: none; */
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body{
+    background: #f5f6fa;
+    overflow-x: hidden;
+}
+.wrapper .sidebar{
+    background: #bd5d38;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+/* Css For images */
+.wrapper .sidebar .profile{
+    padding-top: 45px;
+    text-align: center;
+}
+
+.wrapper .sidebar .profile img{
+    display: block;
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+/* Css For Menu items */
+.wrapper .sidebar ul li a{
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid #ca7d60;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+/* Hover Css Menu */
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+    color: #ffffff;
+    background:#ca7d60;
+    border-right: 2px solid rgb(245, 224, 214);
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon{
+    color: #fcfcfc;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before{
+    display: block;
+}
+.content
+{
+    width: 100%;
+    height: 100%;
+    margin-left:20px;
+    color:black;
+    
+}       
+#about
+{
+    margin-left:312px;
+    padding-top: 110px;
+}
+.content h1,.text{
+    font-family:BebasNeue; 
+    font-size: 85px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   
+}
+.aboutme
+{
+    width:950px;
+    letter-spacing:2px;
+    margin-top: 55px;
+    font-size:18px;
+    
+}
+
+/* Css For Social_media icons */
+.social-menu ul{
+    padding:35px;
+    margin-bottom: 5%;      
+    margin-top:8%;
+    margin-left:30%;
+    top:0; 
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fab{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3s;
+    color: #000;
+}
+
+.social-menu ul li .fab:hover{
+    color: #fff;
+}
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-top: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover{
+    transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: rgba(0, 0, 0, 0.829);
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #E4405F;
+}
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: #0077b5;
+}
+.social-menu ul li:nth-child(4) a:hover{
+    background-color: #000;
+}
+/* Css For Experience Section */
+#experience
+{
+    margin-left:312px;
+    padding-top: 5rem;
+    margin-bottom: 110px;
+}
+.h3_text h3
+{
+    font-size: 65px;
+    font-family: BebasNeue;
+    letter-spacing: 2px;
+    margin-bottom: 45px;
+}
+/* First company */
+.Parent_content_div
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.company_name
+{
+    width: 75%;
+    margin-bottom: 35px;
+}
+.company_name .h2_text
+{
+    font-size: 40px;
+    font-family: plakativ;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.company_name h2            
+{
+    font-size: 25px;
+    font-family: GreenHostel;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    color:#4C4E52;
+}
+.company_name ul li{
+    
+    margin-left: 45px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.date_of_joining
+{
+    width: 25%;
+    color:#bd5d38;
+    margin-left: 30px;
+}
+/* Second company css */
+.second_company
+{
+    width: 100%;
+   display: flex;
+    flex-direction: row;
+}
+.second_company_details
+{
+    width: 75%;
+    padding-top:25px;
+}
+.second_company_details .h2_text1
+{
+    font-size: 40px;
+    font-family: plakativ;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.second_company_details h2            
+{
+    font-size: 25px;
+    font-family: GreenHostel;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    color:#4C4E52;
+}
+.second_company_details ul li{
+    
+    margin-left: 45px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.date_of_joining1
+{
+    width: 25%;
+    color:#bd5d38;
+    margin-left: 30px;
+}
+/* Css for Education  */
+#education
+{
+    margin-left:312px;
+    margin-bottom: 55px;
+    padding-top: 5rem;
+}
+.title h3
+{
+    font-size: 65px;
+    font-family: BebasNeue;
+    letter-spacing: 2px;
+    margin-bottom: 45px;
+}
+.education_details
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.college_name
+{
+    width: 75%;
+    margin-bottom: 35px;
+}
+.college_name .h2_text
+{
+    font-size: 40px;
+    font-family: plakativ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.college_name h2            
+{
+    font-size: 20px;
+    font-family: GreenHostel;
+    letter-spacing: 2px;
+    margin-bottom:10px;
+    color:#4C4E52;
+}
+.passing_year
+{
+    width: 25%;
+    color:#bd5d38;
+    margin-left: 30px;
+}
+.second_education_details
+{
+    width: 100%;
+   display: flex;
+    flex-direction: row;
+}
+.institute_name
+{
+    width: 75%;
+    padding-top:25px;
+}
+.institute_name .h2_text1
+{
+    font-size: 40px;
+    font-family: plakativ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.institute_name h2            
+{
+    font-size: 20px;
+    font-family: GreenHostel;
+    letter-spacing: 2px;
+    margin-bottom:10px;
+    color:#4C4E52;
+}
+.passing_year1
+{
+    width: 25%;
+    color:#bd5d38;
+    margin-left: 30px;
+}
+/* Css For post Graduation */
+.post_graduation_details
+{
+    width: 100%;
+   display: flex;
+    flex-direction: row;
+}
+.university_name
+{
+    
+    width: 75%;
+    padding-top:25px;
+}
+.university_name .h2_text
+{
+    font-size: 40px;
+    font-family: plakativ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.university_name h2            
+{
+    font-size: 20px;
+    font-family: GreenHostel;
+    letter-spacing: 2px;
+    margin-bottom:10px;
+    color:#4C4E52;
+}
+.year
+{
+    width: 25%;
+    color:#bd5d38;
+    margin-left: 30px;
+}
+/* css for skills section */
+#skills
+{
+    margin-left:312px;
+    margin-bottom: 55px;
+    padding-top: 5rem;
+}
+.software_skills .h2_text
+{
+    font-size: 60px;
+    font-family: BebasNeue;
+    letter-spacing: 2px;
+    margin-bottom: 45px;
+}
+.software_skills .language_skill{
+    font-size: 30px;
+    font-family: BebasNeue;
+    color:#4C4E52;
+}
+.icons img
+{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top:30px;
+    margin-right:8px;
+}
+.personal_skills
+{
+    margin-bottom:85px;
+}
+.personal_skills p
+{
+    font-size: 30px;
+    margin-top: 35px;
+    font-family: BebasNeue;
+    color:#4C4E52;  
+    
+}
+.personal_skills ul li{
+    
+    margin-left: 45px;
+    margin-top: 10px;
+    font-size: 16px;
+   
+}
+#interests
+{
+    margin-left:312px;
+    margin-bottom: 25px;
+    padding-top: 5rem;
+}
+.interest_of_area .h2_text
+{
+    font-size: 60px;
+    font-family: BebasNeue;
+    letter-spacing: 2px;
+    margin-bottom: 45px;
+    margin-top:85px;
+}
+.details_of_interest
+{
+    width:950px;
+    font-size: 16px;
+    margin-top: 35px;
+    line-height: 150%;
+    margin-bottom: 20px;
+    color:#4C4E52;  
+}
+.details_of_interest1
+{
+    width:950px;
+    font-size: 16px;
+    margin-top: 35px;
+    line-height: 150%;
+    margin-bottom:210px;
+    color:#4C4E52;  
+}
+/* css For awards */
+#awards
+{
+    margin-left:312px;
+    margin-bottom: 175px;
+    padding-top: 5rem;
+}
+.awards_title .h2_text
+{
+    font-size: 60px;
+    font-family: BebasNeue;
+    letter-spacing: 2px;
+    margin-bottom: 45px;
+    margin-top:25px;
+}
+.awards_title ul li{
+    margin-left: 45px;
+    margin-top: 10px;
+    font-size: 16px;
+    list-style: none;
+}
+.fa-trophy
+{
+    color:#FFBF00;
+    padding-right: 5px;
+}

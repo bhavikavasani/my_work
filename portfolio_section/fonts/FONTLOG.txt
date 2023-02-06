@@ -1,0 +1,44 @@
+FONTLOG.txt for Plakativ
+
+OFL Open Font License
+http://scripts.sil.org/OFL
+
+E-Mail: uwe.borchert@gmx.de
+
+Typeface Plakativ
+(english) A Geometric Poster Sans
+(german)  Eine geometrische Plakat-Grotesk
+
+ChangeLog
+
+09.11.2010 Version 1.7
+- adjusted kerning
+
+04.09.2010 Version 1.6
+- addes cedilla and [C|c]cedilla
+
+28.06.2010 Version 1.5
+- fixed wrog unicode longs-t lig. Figuer Zero (0),
+- changed shape of figures 0 to 9
+
+06.04.2010 Version 1.4
+- corrected width (lowered with autowidth 60) and 
+  kerning (set to minimal number)
+- checked and corrected the baseline of all letters
+- added hungar-umlauts
+
+30.03.2010 Version 1.3
+- major redesign!
+
+29.03.2010 Version 1.2
+- changed superscript 3, numbers  3, 4, 7, 8, 9, 
+  z, asciitilde ...
+
+28.03.2010 Version 1.1
+- removed problems, autohint,
+- Metric: autowith: 70 
+- Autokern 70/70, added man. kerns ...
+- changed zero
+
+27.03.2010 Version 1.0
+- Released as "Plakativ Version 1.0"
