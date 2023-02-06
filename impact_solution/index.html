@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="fonts/css/font-awesome.css">
+    <script src='https://code.jquery.com/jquery-3.6.3.min.js'></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <!-- <script src="js/carousel.js"></script> -->
+    <script>
+        $(document).ready(function(){
+
+            $("#watch_video").click(function(){
+
+                $(".impect-video-content").fadeToggle(500);
+            })
+        })
+    </script>
+    <title>impact solution</title>
+</head>
+<body>
+    <!-- Social icons and email header -->
+    <div class="information">
+        <div class="email_header">
+            <i class="fa fa-phone-square">&nbsp; <span style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Bhavika123@gmail.com</span></i>
+        </div>
+        <div class="social_icons">
+            <i class="fa fa-twitter fa-lg"></i>&nbsp;
+            <i class="fa fa-facebook-square fa-lg"></i>&nbsp;
+            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>&nbsp;
+            <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i>&nbsp;
+        </div>
+    </div>
+    <!-- Main menu -->
+    <div class="impact_header">
+        <!-- Impact logo -->
+        <div class="impect-logo"><b>Impect<small style="color: orangered;">.</small></b>
+            
+        </div>
+        <!-- Impact Navbar -->
+        <div class="impect-navbar nav navbar">
+            <ul class="navbar-link">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Ourteam</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contactus</a></li>
+ 
+            </ul>
+        </div>
+    </div>
+    <!-- body content -->
+    <div class="container impact-slider herosection">
+        <!-- Code For the text -->
+        <div class="text">
+            <h1>Welcome to impact</h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et placeat fuga voluptatibus voluptates voluptas dignissimos.</p>
+            <button type="button" id="slider-btn">Get started</button> &nbsp; &nbsp;<a href="#" id="watch_video"> <span class="fa fa-play-circle-o"></span> Watch Videos</p></a>
+        </div>
+        <!-- Code for the slider -->
+        <div class="sliderimg">
+            <img src="images/vectror (2).png" width="80%" height="300px">
+            <!-- <img src="images/vectror (3).png" width="80%" height="300px"> -->
+        </div>
+     </div>
+
+     <!-- impect content start here -->
+    <section class="impect-content content">
+        <!-- impect box content -->
+        <div class="impect-box-content">
+            <div class="impect-box-grid1">
+                <h1 align="center"><span class="fa fa-tv"></span></h1>
+                <p align="center">Lorem ipsum</p>
+            </div>
+            <div class="impect-box-grid2">
+                <h1 align="center"><span class="fa fa-diamond"></span></h1>
+                <p align="center">Sed ut<br> Perspiciatis</p>
+            </div>
+            <div class="impect-box-grid3">
+                <h1 align="center"><span class="fa fa-map-marker"></span></h1>
+                <p align="center">Magni Dolores</p>
+            </div> 
+            <div class="impect-box-grid4">
+                <h1 align="center"><span class="fa fa-snowflake-o"></span></h1>
+                <p align="center">Nemo</p>
+            </div>
+        </div>
+    </section>
+    <!-- impect footer start here -->
+    <div class="impect-footer footer">
+
+    </div>
+    <!-- Video content -->
+    <!-- watch video content -->
+    <div class="impect-video-content">
+        <video  width="80%" height="300px" controls loop="true" muted autoplay>
+            <source src="video/CSS - Introduction - Part  - 1.mp4" type="video/mp4">
+        </video> 
+    </div>
+</body>
+</html>

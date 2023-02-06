@@ -1,0 +1,219 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html h1,h2,h3,h4,h5,h6 
+{
+    margin: 0;
+    padding: 0;
+}
+html ul li 
+{
+    margin: 0;
+    padding: 0;
+}
+/* css for parent Div */
+.information
+{
+    width: 100%;
+    height:auto;
+    background-color: #02786a;
+    color:white;
+ 
+}
+/* Css For Child Of Parent (Information class) */
+.email_header 
+{
+    width:50%;
+    margin: 0;
+    float: left;
+}
+
+.fa-phone-square
+{
+    padding: 12px;
+    margin-left: 10%;
+
+}
+/* Child Div tag for the information div */
+.social_icons
+{
+    margin:0;
+    padding: 12px;
+    margin-left: 35%;
+    display: inline-block;
+}
+/* Css for impect-logo */
+.impact_header
+{
+    width: 100%;
+    height: auto;
+    background-color: #008375;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.impect-logo
+{
+    width: 30%;
+    height: auto;
+    margin: 0;
+    padding: 5px;
+    margin-left: 5%;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+   
+}
+.impect-navbar 
+{
+    width: 70%;
+    height: auto;
+    margin: 0;
+    padding: 5px;
+}
+.navbar-link li 
+{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+.navbar-link a 
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+.navbar-link a:hover{
+    color: orangered;
+    
+}
+/* Content css */
+.container,.impact-slider,.herosection
+{
+    width:100%;
+    margin: 0;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    background-color:#008375;
+    height:auto;
+    color:white;
+}
+.text
+{
+    width:60%;
+    height: auto;
+    margin:0;
+    padding: 8px;
+    margin-left: 3%;
+    margin-top: 70px;
+}
+.text h1{
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 45px;
+    color: white;
+}
+.text p{
+    text-align: justify;
+    width: 60%;
+    height: auto;
+    color: white;
+}
+.sliderimg
+{
+    width:50%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+}
+/* Css for slider button */
+#slider-btn
+{
+    width: 170px;
+    height: auto;
+    margin: 0;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #008375;
+    box-shadow: 0px 0px 2px 1px rgba(4, 255, 117, 0.582);
+    color:white;
+    border-radius: 15px;
+}
+.impect-content 
+{
+    width: 100%;
+    height: auto;
+}
+.impect-box-content
+{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 200px;
+    background-color: #008375;
+    display: flex;
+    flex-direction: row;
+    
+}
+.impect-box-grid1,
+.impect-box-grid2,
+.impect-box-grid3,
+.impect-box-grid4
+{
+    width: 20%;
+    height: 250px;
+    background-color: #047a6a;
+    border-radius:5px;
+    margin: 10px;
+    margin-left: 3%;
+    margin-top: 4%;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
+.fa-tv,.fa-map-marker,.fa-diamond,.fa-snowflake-o
+{
+    font-size: 50px !important;
+    color: white;
+    padding: 30px;
+}
+/* css for video link */
+.fa-play-circle-o 
+{
+    cursor: pointer;
+    font-size: 25px !important;
+    padding: 5px;
+}
+#watch_video
+{
+    color:white;
+    text-decoration: none;
+ }
+ .impect-video-content
+ {
+   
+     width: 50%;
+     height: auto;
+     background-color: #008375;
+     top: 0;
+     margin: auto;
+     padding: 10px;
+     display: none;
+     position: absolute;
+     margin-left: 50%;
+     margin-top: 10%;
+     z-index: 5 !important;
+     
+ }
